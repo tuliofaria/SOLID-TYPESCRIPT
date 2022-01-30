@@ -1,3 +1,19 @@
-//type implicito!!
-var a  = 12
-a = 12
+// create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
+
+class Libraries {
+    constructor(){
+     return this
+    }
+}
+
+class Organizesale {
+    constructor(){
+        return this
+    }
+}
+
+class Salefinal {
+    constructor(){
+        return this
+    }
+}
