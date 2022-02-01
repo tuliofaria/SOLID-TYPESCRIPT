@@ -9,7 +9,7 @@ Talking little bit about guidance the principles solid, using typescript.
 <h4>Create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE) and also create about guidance of OCP (-open-closed-Principle). <h4>
 <hr>
 
-Did teste unity using JEST, to download of jest.
+Did teste unit using JEST, to download of jest.
 ( npm install --save-dev jest )
 <hr>
 Later install package ts.jest :
