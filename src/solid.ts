@@ -47,11 +47,31 @@ class Salefinal implements FinnalySale {
     value:number ;
     print: string;
     
-    constructor(value: number, print: string){
+    constructor(value:number, print: string){
          this.value = this.value,
          this.print = print
     }
 }
+
+class ReceiveSale {
+    constructor(){
+        this
+    }     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
