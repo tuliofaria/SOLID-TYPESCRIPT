@@ -25,8 +25,8 @@ var Salefinal = /** @class */ (function () {
     return Salefinal;
 }());
 var caught;
-caught = new Libraries('introducao a python', 32321312, 2, 10);
+caught = new Libraries('recipe about spice up meal', 32321312, 2, 10);
 var survey;
-survey = new Organizesale('introducao a python', 'introducao a python');
+survey = new Organizesale('Rearrange your brain', 'introducao a python');
 var together;
 together = new Salefinal(100, 'show invoice');
