@@ -13,7 +13,7 @@ interface SALE {
       update: string;
     }
     
-interface Finnalysale {
+interface FinnalySale {
     value:number ;
     print: string;
     }
@@ -43,7 +43,7 @@ class Organizesale implements SALE {
     }
 }
 
-class Salefinal implements Finnalysale {
+class Salefinal implements FinnalySale {
     value:number ;
     print: string;
     
