@@ -1,8 +1,4 @@
-//Guidance about  OCP (-open-closed-Principle)
-interface Notafiscal{
-    valuebook:number;
-    namebook: string;
-}
+import {Notafiscal} from './thought'
 
 //Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
 class Libraries {
@@ -31,11 +27,7 @@ class Finnaly implements Notafiscal {
     }
     bookone:number;
 }
-
-
-
 //get interface and adding values of book
-const Invoices: Notafiscal = {valuebook:99.90 , namebook:'learning Mysql'}
 let fun1: Libraries = new Libraries('Learning Mysql')
 let prec: Pricebook = new Pricebook(99.90)
 let finasale: Finnaly = new Finnaly(99.90)
