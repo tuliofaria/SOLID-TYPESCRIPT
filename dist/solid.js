@@ -1,6 +1,5 @@
+// create interface first!!
 // create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
-// need create interface to together this clas
-///////////////////////////////////////////////////////////////////////
 var Libraries = /** @class */ (function () {
     function Libraries(nomebook, ibm, quantidade, sumbook) {
         this.nomebook = nomebook,
@@ -24,6 +23,8 @@ var Salefinal = /** @class */ (function () {
     }
     return Salefinal;
 }());
+// need create interface to together this clas
+///////////////////////////////////////////////////////////////////////
 var caught;
 caught = new Libraries('introducao a python', 32321312, 2, 10);
 var survey;
