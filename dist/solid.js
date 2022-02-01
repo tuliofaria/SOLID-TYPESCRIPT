@@ -24,6 +24,12 @@ var Salefinal = /** @class */ (function () {
     }
     return Salefinal;
 }());
+var ReceiveSale = /** @class */ (function () {
+    function ReceiveSale() {
+        this;
+    }
+    return ReceiveSale;
+}());
 var caught;
 caught = new Libraries('recipe about spice up meal', 32321312, 2, 10);
 var survey;
