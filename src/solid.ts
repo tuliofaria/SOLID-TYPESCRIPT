@@ -58,10 +58,10 @@ class Salefinal implements Finnalysale {
 
 
 let caught: Libraries 
-caught = new Libraries('introducao a python',32321312 ,2,10);
+caught = new Libraries('recipe about spice up meal',32321312 ,2,10);
 
 let survey: Organizesale
-survey = new Organizesale('introducao a python','introducao a python');
+survey = new Organizesale('Rearrange your brain','introducao a python');
 
 let together : Salefinal
 together = new Salefinal(100, 'show invoice')
