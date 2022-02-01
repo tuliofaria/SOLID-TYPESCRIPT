@@ -1,4 +1,4 @@
-// create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
+// create interface first!!
 
 interface Book {
     nomebook: string;
@@ -7,19 +7,17 @@ interface Book {
     sumbook: number;
     }
     
-    interface SALE {
+interface SALE {
       pesquisa: string;
       update: string;
     }
     
-    interface Finnalysale {
+interface Finnalysale {
     value:number ;
     print: string;
     }
 
-// need create interface to together this clas
-///////////////////////////////////////////////////////////////////////
-
+// create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
 class Libraries implements Book {  
     nomebook: string;
     ibm: number;
@@ -53,6 +51,12 @@ class Salefinal implements Finnalysale {
          this.print = print
     }
 }
+
+
+
+// need create interface to together this clas
+///////////////////////////////////////////////////////////////////////
+
 
 
 
