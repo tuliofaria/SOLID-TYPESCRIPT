@@ -1,5 +1,6 @@
-const Receive = require('./solid')
+import { Libraries } from './solid'
 
-test('class' , () =>{
-  expect(Receive.Libraries(String)).toBe(String)
+test('Libraries class' , () =>{
+  const libraries = new Libraries('Spell book')
+  expect(libraries.nomebook).toBe('Spell book')
 })

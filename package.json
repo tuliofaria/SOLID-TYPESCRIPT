@@ -7,6 +7,10 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "node solid.ts"
+    "start": "ts-node solid.ts"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7"
   }
 }
