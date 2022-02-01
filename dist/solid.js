@@ -1,38 +1,22 @@
-// create interface first!!
-// connect about both type of class
-// create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
+//Guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
 var Libraries = /** @class */ (function () {
-    function Libraries(nomebook, ibm, quantidade, sumbook) {
-        this.nomebook = nomebook,
-            this.ibm = ibm,
-            this.quantidade = quantidade,
-            this.sumbook = sumbook;
+    function Libraries(nomebook) {
+        this.nomebook = nomebook;
     }
     return Libraries;
 }());
-var Organizesale = /** @class */ (function () {
-    function Organizesale(pesquisa, update) {
-        this.pesquisa = pesquisa,
-            this.update = update;
+var Pricebook = /** @class */ (function () {
+    function Pricebook(pricebook) {
+        this.pricebook = pricebook;
     }
-    return Organizesale;
+    return Pricebook;
 }());
-var Salefinal = /** @class */ (function () {
-    function Salefinal(value, print) {
-        this.value = this.value,
-            this.print = print;
+var Finnaly = /** @class */ (function () {
+    function Finnaly(bookone) {
+        this.bookone = bookone;
     }
-    return Salefinal;
+    return Finnaly;
 }());
-var ReceiveSale = /** @class */ (function () {
-    function ReceiveSale() {
-        this;
-    }
-    return ReceiveSale;
-}());
-var caught;
-caught = new Libraries('recipe about spice up meal', 32321312, 2, 10);
-var survey;
-survey = new Organizesale('Rearrange your brain', 'introducao a python');
-var together;
-together = new Salefinal(100, 'show invoice');
+var fun1 = new Libraries('Learning Mysql');
+var prec = new Pricebook(99.90);
+var finasale = new Finnaly(99.90);
