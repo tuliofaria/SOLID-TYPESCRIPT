@@ -1,4 +1,5 @@
 // create interface first!!
+// connect about both type of class
 // create class uses guidance about SRP (SINGLE RESPONSIBILITY PRINCIPLE)
 var Libraries = /** @class */ (function () {
     function Libraries(nomebook, ibm, quantidade, sumbook) {
@@ -23,8 +24,6 @@ var Salefinal = /** @class */ (function () {
     }
     return Salefinal;
 }());
-// need create interface to together this clas
-///////////////////////////////////////////////////////////////////////
 var caught;
 caught = new Libraries('introducao a python', 32321312, 2, 10);
 var survey;
