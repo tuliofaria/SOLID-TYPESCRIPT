@@ -1,4 +1,5 @@
 // create interface first!!
+// connect about both type of class
 
 interface Book {
     nomebook: string;
@@ -52,10 +53,6 @@ class Salefinal implements Finnalysale {
     }
 }
 
-
-
-// need create interface to together this clas
-///////////////////////////////////////////////////////////////////////
 
 
 
